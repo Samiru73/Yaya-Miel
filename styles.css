@@ -1,0 +1,88 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     margin-top: 20px;
+     position: relative;
+ }
+
+ div {
+     padding: 15px;
+     background: white;
+     border-radius: 20px;
+ }
+
+ h1 {
+     padding-bottom: 20px;
+     font-family: 'Oswald', sans-serif;
+ }
+
+ body {
+     width: 18cm;
+     margin-left: 80px;
+     background: whitesmoke;
+}
+
+#M {
+    width: 10cm;
+    padding: 5px;
+}
+
+#Logo {
+    width: 1.5cm;
+    height: 1.5cm;
+    left: 10px;
+}
+
+header {
+    display: flex;
+    width: 22cm;
+    padding-top: 0.5cm;
+    padding-bottom: 20px;
+    background: rgb(255, 255, 87);
+    text-align: 50px;
+    border-radius: 20px;
+}
+
+#JA {
+    padding-top: 7px;
+    margin-left: 23px;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 20px;
+}
+
+li {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.5cm;
+}
+
+#DS {
+    font-size: 0.7cm;
+}
+
+aside {
+       
+       width: 6cm;
+       background:  orange;
+       padding: 30px;
+       left: 12cm;
+       float: right;
+       overflow: hidden;
+       bottom: 70cm;
+       border-radius: 20px;
+}
+
+.ht {
+    left: 20px;
+}
+
+
+@media {max-width: 700px;
+        max-height: 1000px;}
